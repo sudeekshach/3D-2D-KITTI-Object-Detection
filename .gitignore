@@ -1,0 +1,6 @@
+/.venv
+/filtered_cloud.pcd
+/filtered_colored_cloud.pcd
+/projected_frames
+/yolov8m.pt
+/yolov8n.pt

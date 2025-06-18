@@ -21,15 +21,9 @@
 
 ```text
 .
-├── data/
-│   ├── 2011_09_26_calib/           # KITTI calibration files
-│   ├── image_02/data/             # KITTI RGB frames (.png)
-│   └── velodyne_points/data/      # KITTI LiDAR scans (.bin)
-│
-├── projected_frames/              # Auto‑generated overlays (after running)
 ├── detections_output.mp4          # Final video (auto‑generated)
 │
-├── run_yolo_on_images.py          # YOLO inference on all frames
+├── run_yolo_detection.py          # YOLO inference on all frames
 ├── 2D_3D_detection.py             # Fusion + video script (main)
 ├── detections_yolo.csv            # YOLO results (auto‑generated)
 ├── requirements.txt               # Python deps
@@ -107,6 +101,7 @@ python 2D_3D_detection.py \
 ## 📚 Dataset
 
 - **KITTI Raw 2011‑09‑26 Drive 0001**
+- [KITTI Dataset](https://www.cvlibs.net/datasets/kitti/raw_data.php)
 - 1392×512 stereo images @ 10 Hz
 - 3‑D Velodyne scans (\~100 k pts / frame)
 

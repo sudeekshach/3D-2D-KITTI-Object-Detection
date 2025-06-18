@@ -22,11 +22,11 @@
 ```text
 .
 ├── detections_output.mp4          # Final video (auto‑generated)
-│
+|── visualize_and_filter           # Lidar Data Filtering 
 ├── run_yolo_detection.py          # YOLO inference on all frames
 ├── 2D_3D_detection.py             # Fusion + video script (main)
 ├── detections_yolo.csv            # YOLO results (auto‑generated)
-├── requirements.txt               # Python deps
+├── tracked_objects.csv            # YOLO results (auto‑generated)
 └── README.md                      # This file
 ```
 
